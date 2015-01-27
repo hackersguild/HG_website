@@ -1,0 +1,25 @@
+# Keywords
+app_makers
+agile
+learning_by_doing
+the_hacker_way
+good_practices
+
+
+# Hacking is a way of solving problems by thinking out of the box 
+Hackers Guild pionnered in immersive training in Zambia, aiming to learn how to craft applications -- mobile and web. 
+We want our hackers to be innovative and creative to cope with growing business demand for ICT professionnals in Zambia.
+Our 3months training sessions is enterily dedicated to learn programming good pratices. 
+We are hackers, sky is the limit.
+
+# Good practices, cutting-edge technologies, business relations, become a professionnal freelance developper with the Hackers Guild.
+Our innovative approach to applications development is based on the agile method, constant feedback from the client, behavior driven development, etc. All those approches are now widespread in other regions in the world. We want our hackers to master those methods that have been proven for years elsewhere.
+For a tech point of view, we are going through HTML, styling, version control, Test Driven Development, Model View Controller app, databases, software as a service. All of those based mainly on 2 languages : Javascript & Ruby.  
+
+# We believe that education is learning how to learn. We fulfill this mission with a full-time and immersive training. Learning by practicing.
+We start every training session from scratch, whatever your computing skills, (apply now)[insert questionnaire link]. We only require a large dose of curiosity & autonomy.
+Our training is based on intensive pratice of writing code : 
+ - pair-programming -- one computer, two brains
+ - team projects
+ - mob-programming [insert link here]
+ - hackathons
