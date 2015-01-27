@@ -1,0 +1,54 @@
+footer {
+	/*position:fixed;*/
+	bottom:0; 
+	right:0;
+	left:0;
+
+}
+
+h3 {
+	position:fixed;
+	top:4.2em;
+	bottom: 80em;
+	color: orange;
+}
+
+#below {
+	background-color: black;
+	max-width: 100%;
+	height: 6em;
+	text-align: center;
+	padding: 15px;
+}
+
+#fontColor {
+	color: black;
+}
+
+#bg1 {
+	background: url(../images/scifi.jpg) no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	/*top: 10em;*/
+	/*width: 100%;
+	height: 90%;*/
+	opacity: 0.3;
+	color: black;
+	position: relative;
+
+}
+#topbar {
+	background-color: black;
+}
+a:link, a:visited {
+	color: white;
+	padding-top: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+}
+a:hover {
+	background-color: green;
+}
+

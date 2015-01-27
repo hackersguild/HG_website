@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,400,700);
+
+html{
+	background: url("../images/hackers.jpg") no-repeat center;
+	background-size: cover;
+	background-position: center;
+
+}
+body{
+	background: transparent;
+}
+#navBar{
+	height: 9%;
+}
+ #navRight, #navLeft{
+	padding-top: 1%;
+	
+}
+
+ #navRight, #navLeft{
+	font-size: 12px;
+}
+.menuList{
+	font-size: 20px;
+	font-weight: bold;
+}
+#headline{
+	text-align: center;
+	padding-top: 6%;
+	font-family: 'Dosis', sans-serif;
+}
+#pheader{
+	font-weight: bold;
+	color: green;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700
+}
+#codersword{
+	color: red;
+	font-weight: 2em;
+
+}
+.label{
+	font-size: 1.5em;
+	padding: 15px;
+	background-color: white;
+	opacity:0.8;
+	margin: 2px;
+}
+#labelWrapper{
+	padding-top: 5%;
+}
