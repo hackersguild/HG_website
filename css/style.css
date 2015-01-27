@@ -1,4 +1,3 @@
-
 body{
 	background: transparent;
 	background: url("../images/nature.jpg") no-repeat center;
@@ -23,6 +22,7 @@ body{
 #headline{
 	text-align: center;
 	padding-top: 6%;
+
 }
 #headline h4{
 	font-family: sans-serif;
