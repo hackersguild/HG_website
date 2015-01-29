@@ -1,13 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Dosis:200,400,700);
-
-html{
-	background: url("../images/hackers.jpg") no-repeat center;
-	background-size: cover;
-	background-position: center;
-
-}
 body{
 	background: transparent;
+	background: url("../images/nature.jpg") no-repeat center;
+	background-size: cover;
+	background-position: center;
 }
 #navBar{
 	height: 9%;
@@ -27,26 +22,48 @@ body{
 #headline{
 	text-align: center;
 	padding-top: 6%;
-	font-family: 'Dosis', sans-serif;
-}
-#pheader{
-	font-weight: bold;
-	color: green;
-	font-family: 'Dosis', sans-serif;
-	font-weight: 700
-}
-#codersword{
-	color: red;
-	font-weight: 2em;
 
 }
-.label{
-	font-size: 1.5em;
-	padding: 15px;
-	background-color: white;
-	opacity:0.8;
-	margin: 2px;
+#headline h4{
+	font-family: sans-serif;
+	color: yellow;
+	font-style: italic;
+	padding-top: none
+} 
+
+#pheader{
+	font-weight: bold;
+	color: white;
+	font-family: 'Old Sans Black', sans-serif;
+	font-weight: 700
 }
 #labelWrapper{
 	padding-top: 5%;
+}
+#list{
+	float: center;
+	margin-left: 15em;
+	text-decoration: none;
+	width:;
+}
+
+#list li{
+	background-color:white;
+	opacity: 0.6;
+	padding: 1em;
+	margin-left: 2em;
+	margin-top: 0.5em;
+	font-weight: bold;
+}
+#transparentBg{
+	margin-top: 16em;
+	background-color: #09131a;
+	padding: 3em;
+}
+#list li:hover {
+	opacity: 100;
+	background-color: white;
+	border-width: 5px;
+	border-color: blue;
+
 }
