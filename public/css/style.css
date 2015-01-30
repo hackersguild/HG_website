@@ -1,0 +1,162 @@
+@font-face{
+	font-family: "compass";
+	src:url("/fonts/Compass.ttf");
+}
+#headline{
+	background: url("/images/redu3.jpg") no-repeat center;
+	background-size: cover;
+	background-position: center;
+	
+}
+#navBar{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+ #navRight, #navLeft{
+	padding-top: 1%;
+}
+#navRight{
+	padding-right: 3%;
+}	
+
+.name{
+	padding-top: 3%;
+}
+
+
+.menuList{
+	font-size: 20px;
+	font-weight: bold;
+}
+#headline{
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 16em;
+
+}
+
+#pheader{
+	font-weight: 100;
+	color: white;
+	font-family: 'compass', helvetica, sans-serif;
+}
+#labelWrapper{
+	padding-top: 5%;
+}
+#list{
+	float: center;
+	text-decoration: none;
+	width:;
+}
+
+#list li{
+	background-color:white;
+	opacity: 0.6;
+	padding: 1em;
+	margin-left: 2em;
+	margin-top: 0.5em;
+	font-weight: bold;
+}
+
+#list li:hover {
+	opacity: 100;
+	background-color: white;
+	border-width: 5px;
+	border-color: blue;
+
+}
+
+
+/* Footer*/
+
+footer {
+	/*position:fixed;*/
+	bottom:0; 
+	right:0;
+	left:0;
+
+}
+
+#below {
+	background-color: black;
+	max-width: 100%;
+	height: 6em;
+	text-align: center;
+	padding: 15px;
+}
+ 
+#fontColor {
+	color: black;
+}
+
+
+#topbar {
+	background-color: black;
+}
+a:link, a:visited {
+	color: white;
+	padding-top: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+}
+a:hover {
+	background-color: green;
+}
+
+/*Body*/
+
+.textImage{
+ 	border-radius: 2px;
+}
+.img-responsive{
+	display: block;
+	width: 100% \9;
+	max-width: 100%;
+    height: auto;
+
+}
+.textHeadlines{
+	padding-bottom: 3%;
+	text-align: justify;
+}
+.caption{
+	position: relative;
+	bottom: 26px;
+	padding: 0px;
+	background: rgba(0,0,0,0.6);
+	color: white;
+
+}
+.caption p{
+	margin-left: 2%;
+}
+
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+	#navBar{
+		height: 6%;
+		}
+
+	#separator {
+		background-color: black;
+		height:6%;
+		margin-bottom: 5%;
+	}
+} 
+
+/* min-width 1025px, large screens */ 
+@media only screen and (min-width: 60.063em){ 
+	#navBar{
+		height: 10%;
+	}
+
+	#separator {
+		background-color: black;
+		height:10%;
+		margin-bottom: 8%;
+	}
+}
+
+ 
