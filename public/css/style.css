@@ -2,16 +2,11 @@
 	font-family: "compass";
 	src:url("/fonts/Compass.ttf");
 }
-#headline{
-	background: url("/images/redu3.jpg") no-repeat center;
-	background-size: cover;
-	background-position: center;
-	
-}
 #navBar{
 	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
+	height: 65px;
 }
  #navRight, #navLeft{
 	padding-top: 1%;
@@ -29,17 +24,25 @@
 	font-size: 20px;
 	font-weight: bold;
 }
-#headline{
-	text-align: center;
-	padding-top: 6%;
-	padding-bottom: 16em;
-
+#padding-header-mobile{
+	padding-top:50px
 }
-
 #pheader{
+	font-size: 3.2em;
 	font-weight: 100;
 	color: white;
 	font-family: 'compass', helvetica, sans-serif;
+}
+#headline{
+	background: url("/images/bg.jpg") no-repeat center fixed;
+	background-size: cover;
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 8em;
+
+}
+#slogan {
+	color: #ffffff;
 }
 #labelWrapper{
 	padding-top: 5%;
@@ -47,16 +50,17 @@
 #list{
 	float: center;
 	text-decoration: none;
-	width:;
+	margin:0 auto;
+	width:780px;
 }
 
 #list li{
 	background-color:white;
-	opacity: 0.6;
-	padding: 1em;
-	margin-left: 2em;
+	opacity: 0.8;
+	padding: 0.8em;
+	margin-left: 1.5em;
 	margin-top: 0.5em;
-	font-weight: bold;
+	font-family: 'compass', helvetica, sans-serif;
 }
 
 #list li:hover {
@@ -71,40 +75,21 @@
 /* Footer*/
 
 footer {
-	/*position:fixed;*/
-	bottom:0; 
-	right:0;
-	left:0;
-
-}
-
-#below {
 	background-color: black;
-	max-width: 100%;
-	height: 6em;
-	text-align: center;
-	padding: 15px;
+	padding-top:18px; 
+	margin: 0;
+	max-width: 0;
 }
- 
-#fontColor {
-	color: black;
-}
+footer i{
+	padding: 21px 10px 10px 10px;
 
-
-#topbar {
-	background-color: black;
 }
-a:link, a:visited {
-	color: white;
-	padding-top: 0.5em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 0.5em;
+.social-icons a{
+	color: #bbb;
 }
-a:hover {
-	background-color: green;
+.social-icons a:hover{
+	color: #888;
 }
-
 /*Body*/
 
 .textImage{
@@ -135,9 +120,7 @@ a:hover {
 
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) { 
-	#navBar{
-		height: 6%;
-		}
+	
 
 	#separator {
 		background-color: black;
@@ -148,10 +131,7 @@ a:hover {
 
 /* min-width 1025px, large screens */ 
 @media only screen and (min-width: 60.063em){ 
-	#navBar{
-		height: 10%;
-	}
-
+	
 	#separator {
 		background-color: black;
 		height:10%;
