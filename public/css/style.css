@@ -2,15 +2,18 @@
 	font-family: "compass";
 	src:url("/fonts/Compass.ttf");
 }
+
 #navBar{
 	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
 	height: 65px;
 }
- #navRight, #navLeft{
+
+#navRight, #navLeft{
 	padding-top: 1%;
 }
+
 #navRight{
 	padding-right: 3%;
 }	
@@ -19,34 +22,42 @@
 	padding-top: 3%;
 }
 
-
 .menuList{
 	font-size: 20px;
 	font-weight: bold;
 }
+
 #padding-header-mobile{
 	padding-top:50px
 }
+
 #pheader{
 	font-size: 3.2em;
 	font-weight: 100;
 	color: white;
 	font-family: 'compass', helvetica, sans-serif;
 }
+
 #headline{
 	background: url("/images/bg.jpg") no-repeat center fixed;
 	background-size: cover;
 	text-align: center;
-	padding-top: 6%;
-	padding-bottom: 8em;
-
 }
+
+#filter{
+	background:rgba(0,0,0,.4);
+  width: auto;
+  padding: 100px 0
+}
+
 #slogan {
 	color: #ffffff;
 }
+
 #labelWrapper{
 	padding-top: 5%;
 }
+
 #list{
 	float: center;
 	text-decoration: none;
@@ -71,6 +82,37 @@
 
 }
 
+/*Body*/
+
+.textImage{
+ 	border-radius: 2px;
+}
+.img-responsive{
+	display: block;
+	width: 100% \9;
+	max-width: 100%;
+    height: auto;
+
+}
+
+.textHeadlines{
+	padding-bottom: 3%;
+	text-align: justify;
+}
+
+.caption{
+	position: relative;
+	bottom: 26px;
+	padding: 0px;
+	background: rgba(0,0,0,0.6);
+	color: white;
+
+}
+
+.caption p{
+	margin-left: 2%;
+}
+
 
 /* Footer*/
 
@@ -90,32 +132,11 @@ footer i{
 .social-icons a:hover{
 	color: #888;
 }
-/*Body*/
 
-.textImage{
- 	border-radius: 2px;
-}
-.img-responsive{
-	display: block;
-	width: 100% \9;
-	max-width: 100%;
-    height: auto;
-
-}
-.textHeadlines{
-	padding-bottom: 3%;
-	text-align: justify;
-}
-.caption{
-	position: relative;
-	bottom: 26px;
-	padding: 0px;
-	background: rgba(0,0,0,0.6);
+address a{
 	color: white;
-
-}
-.caption p{
-	margin-left: 2%;
+	font-size: 1.5;
+	font-weight: bold
 }
 
 /* min-width 641px, medium screens */
@@ -123,7 +144,7 @@ footer i{
 	
 
 	#separator {
-		background-color: black;
+		background-color: #333;
 		height:6%;
 		margin-bottom: 5%;
 	}
@@ -133,7 +154,7 @@ footer i{
 @media only screen and (min-width: 60.063em){ 
 	
 	#separator {
-		background-color: black;
+		background-color: #333;
 		height:10%;
 		margin-bottom: 8%;
 	}

@@ -1,6 +1,5 @@
-require 'rubygems' if RUBY_VERSION < '1.9'
 require 'sinatra'
-require "shotgun"
+require 'shotgun'
 
 get '/' do
 	erb :index
