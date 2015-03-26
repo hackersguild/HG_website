@@ -2,7 +2,9 @@
 	font-family: "compass";
 	src:url("/fonts/Compass.ttf");
 }
-
+body{
+	background: #f9f7f4;
+}
 #navBar{
 	width: 100%;
 	margin-left: 0;
@@ -10,6 +12,11 @@
 	height: 65px;
 }
 
+/*---- Start Override top bar css---*/
+.top-bar-section .has-form, .top-bar, .top-bar-section li:not(.has-form) a:not(.button){
+   background: black;
+}	
+/*-- End --*/
 #navRight, #navLeft{
 	padding-top: 1%;
 }
@@ -20,6 +27,7 @@
 
 .name{
 	padding-top: 3%;
+	padding-left: 10%;
 }
 
 .menuList{
@@ -39,14 +47,11 @@
 }
 
 #headline{
-	background: url("/images/bg.jpg") no-repeat center fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.701961),
+    rgba(0, 0, 0, 0.701961)), url(/images/head.jpg);
 	background-size: cover;
 	text-align: center;
-}
-
-#filter{
-	background:rgba(0,0,0,.4);
-  width: auto;
+	width: auto;
   padding: 100px 0
 }
 
@@ -62,7 +67,8 @@
 	float: center;
 	text-decoration: none;
 	margin:0 auto;
-	width:780px;
+	width:100%;
+	margin-right: -12%;
 }
 
 #list li{
@@ -83,6 +89,7 @@
 }
 
 /*Body*/
+
 
 .textImage{
  	border-radius: 2px;
@@ -119,9 +126,13 @@
 footer {
 	background-color: black;
 	padding-top:18px; 
-	margin: 0;
-	max-width: 0;
+	margin: 0;	
 }
+
+.footerwidth {
+	max-width: 100%
+}
+
 footer i{
 	padding: 21px 10px 10px 10px;
 
@@ -144,7 +155,7 @@ address a{
 	
 
 	#separator {
-		background-color: #333;
+		background-color: black;
 		height:6%;
 		margin-bottom: 5%;
 	}
@@ -154,7 +165,7 @@ address a{
 @media only screen and (min-width: 60.063em){ 
 	
 	#separator {
-		background-color: #333;
+		background-color: black;
 		height:10%;
 		margin-bottom: 8%;
 	}
