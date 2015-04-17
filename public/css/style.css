@@ -87,6 +87,10 @@ body{
 	border-color: blue;
 
 }
+#apply_button{
+	width: 20%;
+	margin: 3%;
+}
 
 /*Body*/
 
@@ -149,6 +153,18 @@ address a{
 	font-size: 1.5;
 	font-weight: bold
 }
+
+@media only screen and (max-width: 40em) {
+	#apply_button{
+		width: 60%;
+	}
+	#headline{
+		padding-top: 4%;
+	}
+	#navBar{
+		height: 62px;
+	}
+ }
 
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) { 
