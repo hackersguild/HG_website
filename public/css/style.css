@@ -91,6 +91,12 @@ body{
 	width: 20%;
 	margin: 3%;
 }
+#applyLink a{
+	color: #14A305;
+}
+#applyLink a:hover{
+	color: #368A55;
+}
 
 /*Body*/
 
